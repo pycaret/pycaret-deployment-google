@@ -1,9 +1,7 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: insurance
-  labels:
-    name: insurance
+  name: insurance-cluster
 spec:
   replicas: 1
   selector:
@@ -12,11 +10,9 @@ spec:
   template:
     metadata:
       name: insurance
-      labels:
-        name: insurance
     spec:
       containers:
-        - name: insurance-cluster
+        - name: insurance
           image: gcr.io/pycaret-deployment-kubernetes/insurance:v3
           ports:
             - containerPort: 8080
