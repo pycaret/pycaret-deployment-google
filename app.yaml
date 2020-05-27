@@ -16,7 +16,7 @@ spec:
         name: insurance
     spec:
       containers:
-        - name: insurance
+        - name: insurance-cluster
           image: gcr.io/pycaret-deployment-kubernetes/insurance:v3
           ports:
             - containerPort: 8080
