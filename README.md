@@ -1,4 +1,4 @@
-# Deploy machine learning web app on Google Cloud Platform
+# Deploy machine learning pipeline on Google Kubernetes Engine
 #### A beginner’s guide to train and deploy machine learning pipelines in Python using PyCaret
 
 Read the complete post: https://medium.com/@moez_62905/build-and-deploy-your-first-machine-learning-web-app-280c53d3800a
