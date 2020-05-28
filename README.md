@@ -1,4 +1,4 @@
-# Deploy machine learning pipeline on Google Kubernetes Engine
+# Deploy Machine Learning Pipeline on Google Kubernetes Engine
 #### A beginner’s guide to train and deploy machine learning pipelines in Python using PyCaret
 
 Read the complete post: https://medium.com/@moez_62905/deploy-machine-learning-model-on-google-kubernetes-engine-94daac85108b
